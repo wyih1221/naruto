@@ -1,0 +1,16 @@
+# 本地工作数据（不需要上传）
+.workbuddy/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时与日志
+*.log
+*.tmp
