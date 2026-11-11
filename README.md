@@ -24,7 +24,13 @@
 
 ## 技术
 
-纯 HTML / CSS / JavaScript 单文件，无构建步骤、无依赖。
+原生 HTML / CSS / JavaScript，已拆分为独立文件，无构建步骤、无依赖。
+
+```
+index.html     页面结构
+css/style.css  样式与动画
+js/main.js     粒子、滚动揭示等交互
+```
 
 - 粒子：Canvas + requestAnimationFrame
 - 动效：IntersectionObserver + CSS transition
